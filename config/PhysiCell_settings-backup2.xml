@@ -27,16 +27,16 @@
 	</parallel> 
 	
 	<save>
-		<folder>output</folder>  
+		<folder>sdalasdkal/</folder>  
 
 		<full_data>
-			<interval units="min">2880</interval>
+			<interval units="min">15</interval>
 			<enable>true</enable>
 		</full_data>
 		
 		<SVG>
 			<interval units="min">15</interval>
-			<enable>false</enable>
+			<enable>true</enable>
 		</SVG>
 		
 		<legacy_data>
@@ -301,9 +301,9 @@
           <CD8_hillpower units="" conserved="false" description="">0.0</CD8_hillpower>
           <M1M2_halfmax units="" conserved="false" description="">0.0</M1M2_halfmax>
           <M1M2_hillpower units="" conserved="false" description="">0.0</M1M2_hillpower>
-          <damage_halfmax units="" conserved="false" description="">180</damage_halfmax>
+          <damage_halfmax units="" conserved="false" description="">152.10052</damage_halfmax>
           <damage_hillpower units="" conserved="false" description="">2</damage_hillpower>
-          <damage_relative_max_death units="" conserved="false" description="">100</damage_relative_max_death>
+          <damage_relative_max_death units="" conserved="false" description="">82.172745</damage_relative_max_death>
         </custom_data>
       </cell_definition>
 
@@ -434,7 +434,7 @@
             </secretion>
 
           <cell_interactions>
-            <dead_phagocytosis_rate units="1/min">0.01</dead_phagocytosis_rate>
+            <dead_phagocytosis_rate units="1/min">0.04357243</dead_phagocytosis_rate>
             <live_phagocytosis_rates>
                 <phagocytosis_rate name="cancer" units="1/min">0</phagocytosis_rate>
                 <phagocytosis_rate name="macrophage" units="1/min">0.0</phagocytosis_rate>
@@ -473,7 +473,7 @@
           <max_necrosis_rate units="" conserved="false" description="">2.8e-3</max_necrosis_rate>
           <CD8_halfmax units="" conserved="false" description="">0.0</CD8_halfmax>
           <CD8_hillpower units="" conserved="false" description="">0.0</CD8_hillpower>
-          <M1M2_halfmax units="" conserved="false" description="">5</M1M2_halfmax>
+          <M1M2_halfmax units="" conserved="false" description="">8.027866</M1M2_halfmax>
           <M1M2_hillpower units="" conserved="false" description="">4</M1M2_hillpower>
           <damage_halfmax units="" conserved="false" description="">0.0</damage_halfmax>
           <damage_hillpower units="" conserved="false" description="">0.0</damage_hillpower>
@@ -616,12 +616,12 @@
                 </live_phagocytosis_rates>
 
             <attack_rates>
-                  <attack_rate name="cancer" units="1/min">10</attack_rate>
+                  <attack_rate name="cancer" units="1/min">34.461308</attack_rate>
                   <attack_rate name="macrophage" units="1/min">0.0</attack_rate>
                   <attack_rate name="CD8+ T cell" units="1/min">0.0</attack_rate>
                   </attack_rates>
 
-            <damage_rate units="1/min">1</damage_rate>
+            <damage_rate units="1/min">8.6935625</damage_rate>
             <fusion_rates>
                   <fusion_rate name="cancer" units="1/min">0.0</fusion_rate>
                   <fusion_rate name="macrophage" units="1/min">0.0</fusion_rate>
@@ -645,7 +645,7 @@
           <pO2_necrosis_threshold units="" conserved="false" description="">5</pO2_necrosis_threshold>
           <pO2_necrosis_saturation units="" conserved="false" description="">2.5</pO2_necrosis_saturation>
           <max_necrosis_rate units="" conserved="false" description="">2.8e-3</max_necrosis_rate>
-          <CD8_halfmax units="" conserved="false" description="">0.5</CD8_halfmax>
+          <CD8_halfmax units="" conserved="false" description="">1.007196</CD8_halfmax>
           <CD8_hillpower units="" conserved="false" description="">8</CD8_hillpower>
           <M1M2_halfmax units="" conserved="false" description="">0.0</M1M2_halfmax>
           <M1M2_hillpower units="" conserved="false" description="">0.0</M1M2_hillpower>
