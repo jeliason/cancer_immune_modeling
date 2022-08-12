@@ -1,4 +1,4 @@
-*.o
+
 *.exe
 .DS_Store
 Makefile-backup
